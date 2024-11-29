@@ -6,6 +6,7 @@ import MatchPlayButton from "./MatchPlayButton";
 import useTournamentStatus from "../context/useTournamentStatus";
 import "./Match.css";
 
+
 const Match = ({ match, onPlay }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [modalPlayer, setModalPlayer] = useState(null);
